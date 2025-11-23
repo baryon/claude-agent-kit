@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm install)",
+      "Bash(npm run build:*)",
+      "Bash(node:*)",
+      "Bash(npx tsx:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Read(//Users/lilong/.claude/**)",
+      "Read(//private/tmp/**)",
+      "Read(//tmp/claude-agent-sdk-typescript/**)",
+      "Read(//private/tmp/claude-agent-sdk-typescript/**)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
